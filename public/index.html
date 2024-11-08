@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incremental Polygon Fill with Selection</title>
+    <style>
+        canvas {
+            border: 1px solid black;
+        }
+        #controls {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Incremental Polygon Fill with Selection and Color Choice</h1>
+    <canvas id="canvas" width="800" height="600"></canvas>
+    <div id="controls">
+        <label for="colorPicker">Select Fill Color: </label>
+        <input type="color" id="colorPicker" value="#0080ff">
+        <label for="edgeColorPicker">Select Edge Color: </label>
+        <input type="color" id="edgeColorPicker" value="#FFFF00">
+        <label for="toggleEdges">Show Edges: </label>
+        <input type="checkbox" id="toggleEdges" checked>
+        <button id="finishPolygon">Finish Polygon</button>
+        <button id="clearCanvas">Clear Canvas</button>
+        <button id="deletePolygon">Delete Selected Polygon</button>
+    </div>
+    
+    
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
